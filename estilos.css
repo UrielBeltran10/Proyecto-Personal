@@ -9,7 +9,6 @@ body {
     height: 100vh; /* Ajusta la altura del cuerpo al 100% de la altura de la ventana */
 }
 
-
 .menu_container {
     padding: 20px;
     text-align: left;
@@ -17,22 +16,29 @@ body {
 
 .menu_container h1, .menu_container p {
     background-color: transparent;
-    margin: 5%;
+    margin: 4%;
     margin-left: 2%;
     margin-right: 45%;
-    display: flexs;
-    flex-direction: column;
-    justify-content: left;
-    align-items: left;
-    color: black;
+    color: black; /* Cambia el color de texto según sea necesario */
 }
 
-p{
+p {
     width: auto;
     text-align: left;
-    height: 100%;
     font-size: medium;
     white-space: pre-line;
 }
+
+@media only screen and (max-width: 1700px) {
+    .menu_container {
+        padding: 10px; 
+        margin-top: 20%;
+    }
+
+    p {
+        font-size: small;
+    }
+}
+
 
 
