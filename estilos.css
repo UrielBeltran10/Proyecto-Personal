@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Flores3.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    height: 100vh; /* Ajusta la altura del cuerpo al 100% de la altura de la ventana */
+}
+
+
+.menu_container {
+    padding: 20px;
+    text-align: left;
+}
+
+.menu_container h1, .menu_container p {
+    background-color: transparent;
+    margin: 5%;
+    margin-left: 2%;
+    margin-right: 45%;
+    display: flexs;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    color: black;
+}
+
+p{
+    width: auto;
+    text-align: left;
+    height: 100%;
+    font-size: medium;
+    white-space: pre-line;
+}
+
+
